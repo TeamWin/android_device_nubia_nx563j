@@ -93,7 +93,7 @@ BOARD_HAS_NO_REAL_SDCARD := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_NO_USB_STORAGE := true
 TW_NEW_ION_HEAP := true
-BOARD_CUSTOM_BOOTIMG_MK := device/nubia/nx563j/mkbootimg.mk
+TW_IGNORE_MISC_WIPE_DATA := true
 
 #remove screen pointer
 TW_INPUT_BLACKLIST := "hbtp_vm"
